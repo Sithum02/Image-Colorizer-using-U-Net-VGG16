@@ -29,3 +29,24 @@ This project implements a **deep learning–based automatic image colorization m
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## 🧾 **Part 2 — CV Key Points (Short, Crisp Bullet Style)**
+
+You can put these under your **Projects** or **Deep Learning** section of your CV:
+
+- Developed an **automatic image colorization model** using **TensorFlow** with a **U-Net decoder** and **VGG16 encoder** for grayscale-to-RGB conversion.  
+- Implemented a **custom preprocessing pipeline** (OpenCV + tf.data) for converting RGB → Lab color space and efficient batching.  
+- Integrated **pre-trained VGG16** as a feature extractor to improve semantic colorization performance.  
+- Added **live visualization callbacks** during training to monitor model outputs.  
+- Optimized model for **hardware constraints** by adjusting input resolution and batch size.
+ 
+- Designed modular code structure (`preprocess.py`, `train.py`, `utils.py`) to enable future integration with GAN-based loss functions.  
+- Documented and published the full project on **GitHub**, making it reproducible and easy to extend.
+
+-
+
+
+
