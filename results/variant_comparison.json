@@ -1,0 +1,35 @@
+{
+ "zero_prediction_val_mse": 0.013996737077832222,
+ "unit input, decoder BN off": {
+  "steps": 1500,
+  "val_mse": 0.009796543868724257,
+  "vs_zero": -0.3000837399282261,
+  "saturated_at_init": 0.011101722717285156,
+  "saturated_after": 0.0,
+  "ms_per_step": 453.57504749298096
+ },
+ "unit input, decoder BN on": {
+  "steps": 1500,
+  "val_mse": 0.009793691004160792,
+  "vs_zero": -0.3002875634727853,
+  "saturated_at_init": 0.4838104248046875,
+  "saturated_after": 0.0,
+  "ms_per_step": 479.03562386830646
+ },
+ "imagenet input, decoder BN off": {
+  "steps": 1500,
+  "val_mse": 0.9709190094470977,
+  "vs_zero": 68.36752502015786,
+  "saturated_at_init": 0.9786396026611328,
+  "saturated_after": 1.0,
+  "ms_per_step": 432.59428755442303
+ },
+ "imagenet input, decoder BN on": {
+  "steps": 1500,
+  "val_mse": 0.010932812099345029,
+  "vs_zero": -0.21890280294968045,
+  "saturated_at_init": 0.9918632507324219,
+  "saturated_after": 0.0,
+  "ms_per_step": 478.2877244949341
+ }
+}
